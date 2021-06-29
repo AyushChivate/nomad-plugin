@@ -1,0 +1,12 @@
+name: Nomad
+version: ${project.version}
+main: io.ayushchivate.github.nomad.NomadPlugin
+api-version: 1.17
+
+commands:
+  tribe:
+    description: Allows players to join a tribe. Adding the [leave] parameter will allow players to leave the tribe they're in.
+
+permissions:
+  nomad.delete:
+    default: op

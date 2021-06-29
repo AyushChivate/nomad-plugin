@@ -1,0 +1,19 @@
+# Guidelines:
+# Do not change the structure of the file. All fields (red text) should match the example. The only fields
+# which can be changed have comments next to them. All values (green text) can be changed. Remember to put a value of
+# "None" next to the "Player Head Owner" field if the "Material" field does not have a value of "PLAYER_HEAD". The
+# inventory size should be a multiple of 9 that is greater than 0. The inventory will have a width of 9 by default and
+# the height will be the inventory size divided by 9. The slot numbers will start from the top left and will go across
+# each row. The slot number starts from 0 and ends at the inventory size minus one. The value for the "Lore" field must
+# be a list. A list is a group of values with dashes in front of them, as is shown in the example.
+
+Name: Tribe 2
+Material: OAK_LOG
+Player Head Owner: None # changed to None because material is not of type PLAYER_HEAD
+Slot Number: 2 # starts from 0, ends at inventory size - 1.
+Lore: # must be a list
+  - This is the lore of the item which represents tribe 2.
+  - -----------------
+  - Click to join this tribe!
+Players:
+  - 6c9c944b-7771-447b-b332-fbade2f0e235
